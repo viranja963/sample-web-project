@@ -7,7 +7,7 @@ on:
 
 jobs:
 
-test:
+ test:
 
  runs-on: ubuntu-latest
 
@@ -17,10 +17,10 @@ test:
   uses: actions/checkout@v4
 
   -name: Verify HTML File Exists
-  run: test -f index.HTML
+  run: test -f index.html 
 
   -name: Verify CSS File Exists
-  run: test -f style.CSS
+  run: test -f style.css 
 
   -name: Verify javaScript File Exists
   run: test -f script.js
